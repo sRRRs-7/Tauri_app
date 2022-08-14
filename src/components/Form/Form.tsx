@@ -91,10 +91,13 @@ function Form() {
         />
         <button onClick={() => submitCommand(text, inputRef)}>Submit</button>
       </div>
-      <div>
+      <div className="router">
         <Link to="/">Form</Link>
+        <Link to="/dialog">Dialog</Link>
         <Link to="/home">Home</Link>
         <Link to="/blog">Blog</Link>
+        <Link to="/emit">Web_to_core</Link>
+        <Link to="/emitAll">Core_to_web</Link>
         <Outlet />
       </div>
     </div>
