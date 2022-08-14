@@ -1,0 +1,27 @@
+.BackGround {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffff99;
+    height: 1100px;
+}
+
+.Button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Btn {
+    padding: 10px;
+    margin: 10px;
+    font-size: calc(10px + 2vmin);
+    color: #000;
+}
+
+.Form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
